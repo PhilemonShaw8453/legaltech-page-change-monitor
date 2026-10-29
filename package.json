@@ -1,0 +1,14 @@
+{
+  "name": "legaltech-change-monitor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/monitor_command.ts",
+    "test": "node --experimental-strip-types src/change_monitor.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
